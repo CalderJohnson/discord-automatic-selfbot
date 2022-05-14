@@ -2,8 +2,9 @@ import asyncio
 import discord
 from discord.ext.commands import *
 import cleverbotfree
+from keys import USER_TOKEN
 
-token = "your-token"
+token = USER_TOKEN
 prefix = '!'
 intents = discord.Intents(messages=True, members=True)
 
